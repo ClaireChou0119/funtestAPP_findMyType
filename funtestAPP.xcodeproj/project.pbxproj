@@ -12,6 +12,7 @@
 		04277CC51F32CD710037316A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04277CC31F32CD710037316A /* Main.storyboard */; };
 		04277CC71F32CD710037316A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04277CC61F32CD710037316A /* Assets.xcassets */; };
 		04277CCA1F32CD710037316A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04277CC81F32CD710037316A /* LaunchScreen.storyboard */; };
+		04277CD61F32DCA20037316A /* ShowMyTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04277CD51F32DCA20037316A /* ShowMyTypeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04277CC61F32CD710037316A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04277CC91F32CD710037316A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04277CCB1F32CD710037316A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04277CD51F32DCA20037316A /* ShowMyTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMyTypeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				04277CBF1F32CD710037316A /* AppDelegate.swift */,
 				04277CC11F32CD710037316A /* ViewController.swift */,
+				04277CD51F32DCA20037316A /* ShowMyTypeTableViewController.swift */,
 				04277CC31F32CD710037316A /* Main.storyboard */,
 				04277CC61F32CD710037316A /* Assets.xcassets */,
 				04277CC81F32CD710037316A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04277CC21F32CD710037316A /* ViewController.swift in Sources */,
+				04277CD61F32DCA20037316A /* ShowMyTypeTableViewController.swift in Sources */,
 				04277CC01F32CD710037316A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
