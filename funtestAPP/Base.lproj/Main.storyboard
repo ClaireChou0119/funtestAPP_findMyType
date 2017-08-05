@@ -148,6 +148,7 @@
                                                     </state>
                                                     <connections>
                                                         <action selector="resultBottom:" destination="R1d-3n-K3s" eventType="touchUpInside" id="i5l-C7-ng5"/>
+                                                        <action selector="toEndEditTap:" destination="R1d-3n-K3s" eventType="touchUpInside" id="nJO-Au-6KO"/>
                                                     </connections>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bear4" translatesAutoresizingMaskIntoConstraints="NO" id="kkY-gY-CdN">

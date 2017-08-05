@@ -39,9 +39,12 @@ class ShowMyTypeTableViewController: UITableViewController {
     
     @IBAction func toEndEditTap(_ sender: Any) {
         view.endEditing(true)
-    }
+        
+            }
+        
     @IBAction func resultBottom(_ sender: Any) {
         
+        view.endEditing(true)
         
         if nameTextField.text?.isEmpty == true {
             showTextView.text = "尚未輸入大名呦！"
@@ -55,7 +58,10 @@ class ShowMyTypeTableViewController: UITableViewController {
             var finalDataReference : Int = 0
             let monthData = Int(monthTextField.text!)
             let dateData = Int(dateTextField.text!)
-            
+            if monthData!<1 || monthData!>12 || dateData!<1 || dateData!>31 {
+                showTextView.text = "日期範圍不對喔"
+            }
+            else {
             let dateReference = (monthData!/10) + (monthData!%10) + (dateData!/10) + (dateData!%10)
             finalDataReference1 = Int((dateReference/10) + (dateReference%10))
             finalDataReference = Int((finalDataReference1/10) + (finalDataReference1%10))
@@ -119,6 +125,7 @@ class ShowMyTypeTableViewController: UITableViewController {
                     boyImageView3.self.isHidden = true
                     boyImageView4.self.isHidden = true
                     bearImageView.isHidden = false
+                }
                 }
             }
         }
